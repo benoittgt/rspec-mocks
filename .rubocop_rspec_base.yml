@@ -1,4 +1,4 @@
-# This file was generated on 2018-01-02T08:14:15-08:00 from the rspec-dev repo.
+# This file was generated on 2018-02-24T11:39:25+01:00 from the rspec-dev repo.
 # DO NOT modify it by hand as your changes will get lost the next time it is generated.
 
 # This file contains defaults for RSpec projects. Individual projects
@@ -50,6 +50,9 @@ DoubleNegation:
 EachWithObject:
   Enabled: false
 
+Encoding:
+  EnforcedStyle: when_needed
+
 FormatString:
   EnforcedStyle: percent
 
@@ -70,7 +73,7 @@ MethodLength:
   Max: 15
 
 # Who cares what we call the argument for binary operator methods?
-BinaryOperatorParameterName:
+OpMethod:
   Enabled: false
 
 PercentLiteralDelimiters:
@@ -118,117 +121,10 @@ StringLiterals:
 Style/SpecialGlobalVars:
   Enabled: false
 
-Style/TrailingCommaInLiteral:
-  Enabled: false
-
-Style/TrailingCommaInArguments:
+Style/TrailingComma:
   Enabled: false
 
 TrivialAccessors:
   AllowDSLWriters: true
   AllowPredicates: true
   ExactNameMatch: true
-
-Style/ParallelAssignment:
-  Enabled: false
-
-Layout/EmptyLineBetweenDefs:
-  Enabled: false
-
-Layout/FirstParameterIndentation:
-  Enabled: false
-
-Naming/ConstantName:
-  Enabled: false
-
-Style/ClassCheck:
-  Enabled: false
-
-Style/ConditionalAssignment:
-  Enabled: false
-
-Style/EmptyMethod:
-  Enabled: false
-
-Style/FormatStringToken:
-  Enabled: false
-
-Style/GuardClause:
-  Enabled: false
-
-Style/IdenticalConditionalBranches:
-  Enabled: false
-
-Style/IfUnlessModifier:
-  Enabled: false
-
-Style/IfUnlessModifierOfIfUnless:
-  Enabled: false
-
-Style/MethodMissing:
-  Enabled: false
-
-Style/MixinUsage:
-  Enabled: false
-
-Style/MultipleComparison:
-  Enabled: false
-
-Style/MutableConstant:
-  Enabled: false
-
-Style/NestedModifier:
-  Enabled: false
-
-Style/NestedParenthesizedCalls:
-  Enabled: false
-
-Style/NumericPredicate:
-  Enabled: false
-
-Style/RedundantParentheses:
-  Enabled: false
-
-Style/StringLiteralsInInterpolation:
-  Enabled: false
-
-Style/SymbolArray:
-  Enabled: false
-
-Style/SymbolProc:
-  Enabled: false
-
-Style/YodaCondition:
-  Enabled: false
-
-Style/ZeroLengthPredicate:
-  Enabled: false
-
-Layout/ClosingParenthesisIndentation:
-  Enabled: false
-
-Layout/ExtraSpacing:
-  Enabled: false
-
-Layout/MultilineMethodCallBraceLayout:
-  Enabled: false
-
-Layout/MultilineMethodCallIndentation:
-  Enabled: false
-
-Layout/MultilineOperationIndentation:
-  Enabled: false
-
-Layout/SpaceAroundBlockParameters:
-  Enabled: false
-
-Layout/SpaceAroundOperators:
-  Enabled: false
-
-Layout/SpaceBeforeComma:
-  Enabled: false
-
-# This could likely be enabled, but it had a false positive on rspec-mocks
-# (suggested change was not behaviour preserving) so I don't trust it.
-Performance/HashEachMethods:
-  Enabled: false
